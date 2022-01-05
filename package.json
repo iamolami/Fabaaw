@@ -1,0 +1,23 @@
+{
+  "name": "fabaaw-media",
+  "version": "1.0.0",
+  "description": "A social Media Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamolami/Fabaaw.git"
+  },
+  "author": "Integer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamolami/Fabaaw/issues"
+  },
+  "homepage": "https://github.com/iamolami/Fabaaw#readme",
+  "dependencies": {
+    "sass": "^1.45.2"
+  }
+}

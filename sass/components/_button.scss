@@ -1,0 +1,35 @@
+.header__searchBtn {
+    width: 27px;
+    height: 27px;
+    border: none;
+    border-radius: 50%;
+    background-color: $fabaaw-green;
+    outline: none;
+    color: $fabaaw-white;
+    font-size: 1.1rem;
+    padding-top: .3rem;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+}
+
+.main__btnwv46 {
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: .9rem;
+    font-family: $primary-family;
+    font-weight: 700;
+    background-color: $fabaaw-green;
+    color: $fabaaw-white;
+}
+
+.main__btnwv47 {
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: .8rem;
+    font-family: $primary-family;
+    font-weight: 700;
+    background-color: $fabaaw-input-bg;
+    color: $fabaaw-text;
+    margin-left: .5rem;
+}
