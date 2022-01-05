@@ -1,0 +1,22 @@
+// Google Fonts Family
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+//Font (sizes, family, & weight)
+$body-family: 'Montserrat Alternates', sans-serif;
+$primary-family:'Marcellus SC', serif;
+$default-size: 62.5%;
+
+//Colors
+$fabaaw-green: #15676B;
+$fabaaw-red: #EE3287;
+$fabaaw-yellow: #F99508;
+$fabaaw-orange: #F4670C;
+$fabaaw-black: #000000;
+$fabaaw-white: #FFFFFF;
+$fabaaw-input-bg: rgba(21, 103, 107, 0.2);
+
+//Displays
+$flex: flex;
+$flex-center: center;
+$flex-between: space-between;
