@@ -16,9 +16,9 @@
   }
 }
 
-// html, body {
-//   overflow-x: hidden;
-// }
+html, body {
+  overflow-y: hidden;
+}
 
 body {
   font-size: $default-size;
@@ -48,7 +48,7 @@ li {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-track {
@@ -59,4 +59,8 @@ li {
 ::-webkit-scrollbar-thumb {
   background: $fabaaw-green;
   border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+  height: 3px;
 }

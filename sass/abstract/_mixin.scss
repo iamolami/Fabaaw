@@ -1,0 +1,24 @@
+$size_desktop_breakpoint: 1024px;
+
+/* Media Queries */
+$media_queries: (
+    "mini__resolution": screen and(max-width: 360px),
+    "mobile__resolution": screen and(max-width: 600px),
+    "desktop__resolution": screen and(max-width: 1440px)
+);
+
+@mixin for_breakpoint($breakpoints) {
+    $conditions: ();
+    @each $breakpoint in $breakpoints {
+      // If the key exists in the map
+      $conditions: append(
+        $conditions,
+        #{inspect(map-get($media_queries, $breakpoint))},
+        comma
+      );
+    }
+  
+    @media #{$conditions} {
+      @content;
+    }
+}
