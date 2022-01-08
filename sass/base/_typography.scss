@@ -32,7 +32,7 @@
 
   &__box {
     flex: 1;
-    height: 100%;
+    height: 10vh;
 
     &:first-child {
       @include for_breakpoint(mini__resolution mobile__resolution) {
@@ -905,6 +905,10 @@
     color: $fabaaw-black;
     font-weight: 700;
     margin-bottom: 0.3rem;
+
+    a {
+      color: $fabaaw-black;
+    }
   }
 
   &__2ne772679 {
@@ -940,6 +944,10 @@
   }
 
   &__9js775s6 {
+    &:first-child {
+      display: flex;
+      justify-content: flex-start;
+    }
     .fa,
     .bx {
       font-size: 1.8rem;
@@ -1022,11 +1030,17 @@
     }
   }
 
+  &__7hsg599 {
+    &:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+
   &__7y5s3et {
     margin-top: -1rem;
 
     textarea {
-      min-width: 100%;
+      width: 100%;
       resize: none;
       border-radius: 5px;
       background-color: transparent;

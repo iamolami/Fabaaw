@@ -33,3 +33,109 @@
     color: $fabaaw-text;
     margin-left: .5rem;
 }
+
+.container__btn8et6d78 {
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: .9rem;
+    font-family: $primary-family;
+    font-weight: 700;
+    background-color: $fabaaw-input-bg;
+    color: $fabaaw-text;
+    margin-left: .5rem;
+
+    &:not(:first-child) {
+        background-color: $fabaaw-input-bg;
+    }
+
+    &:not(:last-child) {
+        background-color: $fabaaw-green;
+        color: $fabaaw-white;
+    }
+}
+
+.container__u64748nf {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: $primary-family;
+    font-weight: 700;
+    background-color: $fabaaw-green;
+    color: $fabaaw-white;
+}
+
+.container__46fpbpdju {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 35px;
+    height: 35px;
+    padding-top: .3rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    font-family: $primary-family;
+    font-weight: 700;
+    background-color: $fabaaw-green;
+    color: $fabaaw-white;
+    z-index: 1500;
+}
+
+.container__btn748t5g6 {
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: .9rem;
+    font-weight: 700;
+    background-color: transparent;
+    color: $fabaaw-text;
+    transition: all .1s ease-in-out;
+
+    &:not(:first-child) {
+        margin-left: 1rem;
+    }
+
+    &:focus {
+        border-bottom: 4px solid $fabaaw-green;
+        color: $fabaaw-green;
+    }
+
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+
+      @include for_breakpoint(mini__resolution mobile__resolution) {
+        display: none;
+      }
+    }
+}
+
+.container__267dget7 {
+    width: 100%;
+    height: 100%;
+    padding: .3rem 0rem;
+    background-color: $fabaaw-green;
+    color: $fabaaw-white;
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: $primary-family;
+    margin: .5rem 0rem;
+    border-radius: 5px;
+}
+
+.container__more728h7 {
+    padding: .5rem .9rem;
+    border-radius: 3px;
+    font-size: .9rem;
+    font-weight: 700;
+    color: $fabaaw-text;
+    transition: all .1s ease-in-out;
+    background-color: $fabaaw-input-bg;
+
+    .bx {
+        font-size: .7rem;
+        margin-left: .5rem;
+    }
+}
