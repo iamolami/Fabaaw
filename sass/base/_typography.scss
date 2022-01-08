@@ -1,7 +1,6 @@
 // +++++++++ Header +++++++++++
 .header {
   width: 100%;
-  height: 100%;
   position: relative;
   padding: 0.8rem 3rem;
 
@@ -24,6 +23,7 @@
   }
 
   &__container {
+    height: 100%;
     display: $flex;
     justify-content: $flex-between;
     flex-direction: row;
@@ -33,6 +33,10 @@
   &__box {
     flex: 1;
     height: 10vh;
+
+    @include for_breakpoint(mini__resolution mobile__resolution) {
+      height: 100%;
+    }
 
     &:first-child {
       @include for_breakpoint(mini__resolution mobile__resolution) {

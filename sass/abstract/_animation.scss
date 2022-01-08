@@ -3,7 +3,7 @@ svg {
   overflow: visible;
   width: 60px;
   margin-top: -.8rem;
-  
+
   @include for_breakpoint(mini__resolution mobile__resolution) {
     width: 50px;
   }
@@ -17,11 +17,11 @@ svg {
   }
 }
 
-#checkbox {
+.main__62gyhw8h {
   display: none;
 }
 
-#checkbox:checked + label svg {
+.main__62gyhw8h:checked + label svg {
   #heart {
     transform: scale(0.2);
     fill: #ee3287;
